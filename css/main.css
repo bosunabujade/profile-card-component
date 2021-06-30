@@ -1,0 +1,79 @@
+/******************** General Styles **********************/
+html {
+    font-size: 18px;
+}
+
+body {
+    font-size: 1em;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+section {
+    background-color: white;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+.header-image {
+    background: url("../img/bg-pattern-card.svg") no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile-pic {
+    border: 5px solid white;
+    border-radius: 50px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+.bio {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 15px;
+}
+
+span {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+hr {
+    border-top: hsla(0, 0%, 59%, .4) solid 1px;
+}
+
+.analytics {
+    text-align: center;
+}
+
+h3 {
+    padding: 0;
+    color: hsl(229, 23%, 23%);
+    margin: 0;
+}
+
+p {
+    padding: 10px;
+    margin: 0;
+    color: hsl(227, 10%, 46%);
+    font-size: .85rem;
+
+}
+
+.attribution {
+    font-size: .75rem; 
+    text-align: center; 
+    padding: 10px;
+    text-align: center;
+}
+
+.attribution a { 
+    color: white;
+ }
+
+/******************** Mobile Styles **********************/
